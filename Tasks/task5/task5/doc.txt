@@ -1,0 +1,15 @@
+# Build root lab Vasily Davydov
+
+#WHAT HAVE I DONE
+
+1. I have configured the build with `make menuconfig` according to the instructions
+2. I have built the image with `make 2>&1 | tee build.log` see build.log attached
+3. I have cleared the sd card and created the partiotions on it. First 128MB for boot and rest space for everything else
+4. I have copied boot files to boot partition and extracted rootfs.tar to rootfs part.
+5. Have logged in with picocom to the root through SP connection.
+
+See screenshot attached. 
+
+BR
+
+
